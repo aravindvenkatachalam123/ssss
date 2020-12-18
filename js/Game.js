@@ -55,11 +55,7 @@ cars = [car1,car2,car3,car4]
           camera.position.x = displayWidth/2;
           camera.position.y = cars[index-1].y;
         }
-        else {
-          cars[index-1].shapeColor="red";
-            camera.position.x = displayWidth/2;
-          camera.position.y = cars[index-1].y;
-        }
+    
       }
     }
 
